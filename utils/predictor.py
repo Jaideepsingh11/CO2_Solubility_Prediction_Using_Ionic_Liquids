@@ -34,7 +34,14 @@ def predict_solubility(
     features
 )
 
+    final_prediction = float(
+    prediction[0]
+)
+
+    if final_prediction < 0:
+        final_prediction = 0.0
+
     return (
-    float(prediction[0]),
+    final_prediction,
     features
 )

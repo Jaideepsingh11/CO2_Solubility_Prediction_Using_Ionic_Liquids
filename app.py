@@ -327,7 +327,7 @@ if predict:
             <div class="result-card">
 
             <h3 style="
-            color:#1E3A8A;
+            color:#0B3C5D;
             ">
             Model Performance
             </h3>
@@ -376,7 +376,7 @@ if predict:
 
             st.subheader("Anion")
 
-            
+
 
             if an_info["image"] is not None:
                  st.image(
