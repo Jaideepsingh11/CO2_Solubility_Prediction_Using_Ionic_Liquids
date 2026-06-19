@@ -391,6 +391,7 @@ if predict:
                 "Molecular Weight",
                 f"{cat_info['molwt']:.2f}"
             )
+            
 
         with col2:
 
@@ -403,6 +404,10 @@ if predict:
                  an_info["image"],
                  use_container_width=True
     )
+            st.metric(
+                "Molecular Weight",
+                f"{an_info['molwt']:.2f}"
+            )
 
         st.markdown("<br>", unsafe_allow_html=True)
 
