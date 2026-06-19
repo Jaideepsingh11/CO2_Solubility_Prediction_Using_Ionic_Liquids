@@ -101,7 +101,7 @@ input{
         #1D4ED8
     );
 
-    color:white !important;
+    color:#102A43 !important;
     font-size:20px;
     font-weight:700;
 
