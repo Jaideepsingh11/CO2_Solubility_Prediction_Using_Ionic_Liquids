@@ -129,6 +129,16 @@ h5 a,
 h6 a {
     display: none !important;
 }
+
+
+.result-card{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    border:1px solid #DCE3F1;
+    box-shadow:0px 8px 20px rgba(0,0,0,0.08);
+}
 .result-card{
     color:#0B3C5D !important;
 }
@@ -147,15 +157,6 @@ h6 a {
 
 .result-card p{
     color:#475569 !important;
-}
-
-.result-card{
-    background:white;
-    padding:35px;
-    border-radius:20px;
-    text-align:center;
-    border:1px solid #DCE3F1;
-    box-shadow:0px 8px 20px rgba(0,0,0,0.08);
 }
 
 </style>
