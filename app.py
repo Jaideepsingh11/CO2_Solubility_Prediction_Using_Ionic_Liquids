@@ -158,9 +158,42 @@ h6 a {
 .result-card p{
     color:#475569 !important;
 }
+/* ---------- FINAL COLOR FIX ---------- */
+
+/* Cation / Anion headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #0B3C5D !important;
+}
+
+/* Streamlit metric labels */
+[data-testid="stMetricLabel"] {
+    color: #102A43 !important;
+}
+
+/* Streamlit metric values */
+[data-testid="stMetricValue"] {
+    color: #0B3C5D !important;
+    font-weight: 700 !important;
+}
+
+/* General text */
+[data-testid="stMarkdownContainer"] {
+    color: #102A43 !important;
+}
+
+/* Column text */
+div[data-testid="column"] * {
+    color: #102A43;
+}
+
+/* Success messages */
+[data-testid="stAlert"] {
+    color: #102A43 !important;
+}
 
 </style>
 """, unsafe_allow_html=True)
+
 
 # ==========================================================
 # HEADER
