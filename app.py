@@ -361,10 +361,11 @@ if predict:
 
             st.subheader("Cation")
 
-            st.image(
-                cat_info["image"],
+            if cat_info["image"] is not None:
+                 st.image(
+                 cat_info["image"],
                 use_container_width=True
-            )
+    )
 
             st.metric(
                 "Molecular Weight",
@@ -375,15 +376,13 @@ if predict:
 
             st.subheader("Anion")
 
-            st.image(
-                an_info["image"],
-                use_container_width=True
-            )
+            
 
-            st.metric(
-                "Molecular Weight",
-                f"{an_info['molwt']:.2f}"
-            )
+            if an_info["image"] is not None:
+                 st.image(
+                 an_info["image"],
+                 use_container_width=True
+    )
 
         st.markdown("<br>", unsafe_allow_html=True)
 
