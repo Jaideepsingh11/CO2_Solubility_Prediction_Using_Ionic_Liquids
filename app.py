@@ -129,6 +129,25 @@ h5 a,
 h6 a {
     display: none !important;
 }
+.result-card{
+    color:#0B3C5D !important;
+}
+
+.result-card h1{
+    color:#0B3C5D !important;
+}
+
+.result-card h2{
+    color:#0B3C5D !important;
+}
+
+.result-card h3{
+    color:#0B3C5D !important;
+}
+
+.result-card p{
+    color:#475569 !important;
+}
 
 .result-card{
     background:white;
